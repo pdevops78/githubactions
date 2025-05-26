@@ -1,0 +1,9 @@
+cd rf
+cd repos
+repos cd cit
+cit cd pdevops78
+pdevops78 git clone https://github.com/pdevops78/githubactions
+
+applications repos:
+====================
+https://github.com/expenseapp-v2
