@@ -121,4 +121,14 @@ sonarScanner:
    curl -L -o sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-7.1.0.4889-linux-x64.zip?_gl=1*w374vd*_gcl_au*MTQ0NzA4ODc2MS4xNzQ4MzMyNDU3*_ga*MTAyOTA5MTgwLjE3MTc1OTUzMzA.*_ga_9JZ0GZ5TC6*czE3NDgzMzI0NTYkbzgkZzEkdDE3NDgzMzM3MzckajUzJGwwJGgwJGQzc1Z5UjRsN2tuNjEtNkRVdlEyYS1ZR0xVQ000aW9VUEZR
 2. uninstall zip file
 3.vi /opt/sonar-scanner/conf/sonar-scanner.properties
-3. 
+
+once application  added in sonarqube 
+1. if condition
+
+Release Software:
+==================
+✅ Release branch → Used temporarily for preparing a version before merging.
+✅ Trunk (main) → The final destination for stable code before deployment
+Featured branch: Developers create their own repos in git
+trunkbaseddevelopment.com, for branches
+
