@@ -132,3 +132,8 @@ Release Software:
 Featured branch: Developers create their own repos in git
 trunkbaseddevelopment.com, for branches
 
+artifactory to deploy a file:
+=============================
+$ curl -v --user username:password --data-binary@artifactzip -X PUT
+"http://localhost:8080/artifactory/expense-backend/1.0.0.zip"
+
