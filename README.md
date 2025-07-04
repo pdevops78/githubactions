@@ -137,3 +137,12 @@ artifactory to deploy a file:
 $ curl -v --user username:password --data-binary@artifactzip -X PUT
 "http://localhost:8080/artifactory/expense-backend/1.0.0.zip"
 
+ on:
+  push:
+   tags:
+    - "*"
+ 
+** pass info through expense backend : release_archive_files: "*.js packahe.json schema VERSION"
+echo ${GITHUB_REF_NAME}>VERSION , means GITHUB_REF_NAME=test4 or 1.0.0 redirect version replace with previous data
+
+run: zip -r artifcat.zip ${{input.release_archive_files}}
